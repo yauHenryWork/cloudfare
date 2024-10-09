@@ -10,6 +10,7 @@ function renderHtml(content) {
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>D1</title>
+	<p>hellow from git<p/>
         <link rel="stylesheet" type="text/css" href="https://templates.cloudflareintegrations.com/styles.css">
       </head>
     
