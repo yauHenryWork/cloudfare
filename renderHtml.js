@@ -10,7 +10,6 @@ function renderHtml(content) {
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>D1</title>
-	<p>hellow from git<p/>
         <link rel="stylesheet" type="text/css" href="https://templates.cloudflareintegrations.com/styles.css">
       </head>
     
@@ -22,6 +21,7 @@ function renderHtml(content) {
           <h1>\u{1F389} Successfully connected henry-side-project to D1</h1>
         </header>
         <main>
+        <p>hellow from git<p/>e
           <p>Your D1 Database contains the following data:</p>
           <pre><code><span style="color: #0E838F">&gt; </span>SELECT * FROM comments LIMIT 3;<br>${content}</code></pre>
           <small class="blue">
